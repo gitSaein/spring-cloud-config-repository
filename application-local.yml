@@ -1,2 +1,3 @@
-saeinlee:
-	profile: local
+spring:
+  application:
+    name: config-server
