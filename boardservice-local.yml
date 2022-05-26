@@ -10,7 +10,6 @@ eureka:
 spring:
   data:
     mongodb:
-      authentication-database: admin
       uri: mongodb://admin:admin@localhost:27017/myapp?authSource=admin
 #      host: localhost
 #      port: 27017
