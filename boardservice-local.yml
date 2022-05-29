@@ -11,6 +11,8 @@ spring:
   data:
     mongodb:
       uri: mongodb://admin:admin@localhost:27017/myapp?authSource=admin
+      authentication-database: admin
+      
 #      host: localhost
 #      port: 27017
 #      username: root
